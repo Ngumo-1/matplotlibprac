@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+
 # np.random.seed(123)
 # x=np.random.rand(50)
 # y1 = 2 * x + 1 + 0.1 * np.random.randn(50)
@@ -17,11 +18,11 @@ import matplotlib.pyplot as plt
 np.random.seed(42)
 arr1=np.random.randint(40, size=(20))
 arr2=np.random.randint(40, size=(20))
-plt.scatter(arr1, arr2, color="hotpink", marker="*")
+plt.scatter(arr1, arr2, color="hotpink", marker="*", alpha=0.6)
 
 x=np.random.randint(30, size=15)
 y=np.random.randint(30, size=15)
-plt.scatter(x, y, color="blue", marker="o")
+plt.scatter(x, y, color="blue", marker="o", alpha=0.6)
 
 plt.show()
 
