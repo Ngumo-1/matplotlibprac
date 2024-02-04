@@ -9,4 +9,5 @@ labelss=["bananas","oranges","pears","guavas","apples","carrots"]
 wedge_colors=["hotpink", "blue", "black", "yellow","grey","green"]
 explode_values=[0.1,0.1,0.1,0.1,0.1,0.1]
 plt.pie(x, labels=labelss, startangle=90, explode=explode_values, shadow=True, colors=wedge_colors)
+plt.legend(title="fruits")
 plt.show()
